@@ -1,0 +1,17 @@
+{
+  "name": "chat-models",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.61",
+    "@langchain/google-genai": "^0.2.13",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.29",
+    "tsx": "^4.20.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4"
+  }
+}
